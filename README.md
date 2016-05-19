@@ -5,7 +5,7 @@
 * Populate keycloak.json file with parameters for the client in step 1
 
 ## Run
-Run ExampleApp.java
+Run ExampleApp.java or "./gradlew app:bootRun"
 
 Starts the application on localhost with port 9092, context route: /example
 
