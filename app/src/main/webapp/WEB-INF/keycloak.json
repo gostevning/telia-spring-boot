@@ -1,0 +1,11 @@
+{
+  "realm": "{realm}",
+  "realm-public-key": "{key}",
+  "auth-server-url": "https://id.teliasonera.no/auth",
+  "ssl-required": "external",
+  "resource": "{myclient}",
+  "credentials": {
+    "secret": "{secret}"
+  },
+  "principal-attribute": "email"
+}

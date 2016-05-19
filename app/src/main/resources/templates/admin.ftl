@@ -1,0 +1,26 @@
+<#-- @ftlvariable name="principal" type="org.keycloak.KeycloakPrincipal" -->
+<#-- @ftlvariable name="serviceName" type="java.lang.String" -->
+<#import "/spring.ftl" as spring />
+<#assign xhtmlCompliant = true in spring>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>${serviceName}</title>
+    </head>
+    <body>
+
+        <header>
+            <form action="<@spring.url '/sso/logout' />" method="post">
+                <input type="hidden"
+                       name="${_csrf.parameterName}"
+                       value="${_csrf.token}"/>
+                <input type="submit" name="submit" value="Logout"/>
+            </form>
+        </header>
+
+        <h1>${serviceName} Administration</h1>
+
+        <p>User ${principal.name} made this request.</p>
+
+    </body>
+</html>

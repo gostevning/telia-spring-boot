@@ -1,0 +1,10 @@
+server:
+  port: 9092
+  contextPath: /example
+
+spring:
+  freemarker:
+    cache: false
+
+logging:
+    level.org.springframework: DEBUG
