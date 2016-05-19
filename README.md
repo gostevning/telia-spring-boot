@@ -8,4 +8,5 @@
 Run ExampleApp.java
 
 Starts the application on localhost with port 9092, context route: /example
-http://localhost:9092/example
+
+http://localhost:9092/example/
