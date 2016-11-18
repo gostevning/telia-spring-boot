@@ -1,3 +1,5 @@
+# Replaced by https://github.com/gostevning/telia-simple-app
+
 # Telia Keycloak Spring Security Examples
 ## Requirements
 * Register client at https://id.teliasonera.no/, see https://telia-identity.readme.io/docs/
